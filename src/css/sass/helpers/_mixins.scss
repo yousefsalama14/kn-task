@@ -1,0 +1,82 @@
+// overlay mixin //
+
+@mixin overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// prefix mixin //
+
+@mixin prefixer($property, $value, $prefixes: ()) {
+	@each $prefix in $prefixes {
+		#{'-' + $prefix + '-' + $property}: $value;
+	}
+	#{$property}: $value;
+}
+
+// global //
+@mixin transition-2 {
+	transition: 0.2s all ease-in-out;
+}
+
+@mixin main-btn {
+	background-color: $mainColor;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	display: inline-block;
+	font-size: 16px;
+	color: $white;
+	line-height: 1;
+    font-family: $main-font;
+	@include transition-2;
+	&:hover {
+		background-color: transparent;
+		color: $mainColor;
+	}
+}
+@mixin main-outline-btn {
+	background-color: transparent;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	display: inline-block;
+	font-size: 16px;
+	color: $mainColor;
+    border: 1px solid $mainColor;
+	line-height: 1;
+    font-family: $main-font;
+	@include transition-2;
+	&:hover {
+		background-color: $mainColor;
+		color: $white;
+        border: 1px solid $mainColor;
+	}
+}
+@mixin background-pro {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@mixin title-shape {
+	content: "";
+	border-bottom: 5px solid $mainColor;
+	position: absolute;
+	bottom: 0;
+	width: 70%;
+	left: 0;
+	border-radius: 10px;
+}
+
+@mixin main-title {
+	margin-bottom: 2rem;
+	color: $thirdColor;
+	padding-bottom: 2rem;
+	font-size: 40px;
+	font-weight: $font-weight-bold;
+	display: inline-block;
+	position: relative;
+    font-family: $main-font;
+}

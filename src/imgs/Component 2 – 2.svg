@@ -1,0 +1,16 @@
+<svg id="Component_2_2" data-name="Component 2 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="31" viewBox="0 0 42 31">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="26" height="17" rx="2" transform="translate(521.93 42.247)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_12" data-name="Rectangle 12" width="42" height="31" rx="3" fill="#032330"/>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-513.93 -35.247)" clip-path="url(#clip-path)">
+    <g id="US" transform="translate(522 42)">
+      <path id="Path_9" data-name="Path 9" d="M0,.331H26.241V17.825H0Z" transform="translate(0 -0.331)" fill="#f0f0f0"/>
+      <path id="Path_10" data-name="Path 10" d="M0,42.994H26.241v2.187H0Zm0,4.374H26.241v2.187H0Zm0,4.373H26.241v2.187H0Zm0,4.374H26.241V58.3H0Z" transform="translate(0 -40.807)" fill="#d80027"/>
+      <path id="Path_11" data-name="Path 11" d="M0,.331H13.12v9.42H0Z" transform="translate(0 -0.331)" fill="#2e52b2"/>
+      <path id="Path_12" data-name="Path 12" d="M29.784,32.2l-.211.65H28.89l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4H30Zm.211,3-.211-.65-.211.65H28.89l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4Zm-2.889,0-.211-.65-.211.65H26l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4Zm-.211-3-.211.65H26l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4h-.683Zm2.889-2.346-.211.65H28.89l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4H30Zm-2.889,0-.211.65H26l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4h-.683ZM32.673,32.2l-.211.65h-.683l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4h-.683Zm.211,3-.211-.65-.211.65h-.683l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4Zm2.889,0-.211-.65-.211.65h-.683l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4Zm-.211-3-.211.65h-.683l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4h-.683ZM32.673,29.85l-.211.65h-.683l.553.4-.211.65.553-.4.553.4-.211-.65.553-.4h-.683Zm2.889,0-.211.65h-.683l.553.4-.211.65.553-.4.553.4L35.9,30.9l.553-.4h-.683Z" transform="translate(-24.668 -28.337)" fill="#f0f0f0"/>
+    </g>
+  </g>
+</svg>

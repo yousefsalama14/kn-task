@@ -1,0 +1,34 @@
+body{
+    font-size: 16px;
+    margin: 0;
+}
+
+ul, ol{
+    list-style-type: none;
+    padding-right: 0;
+    padding-left: 0;
+}
+a{
+    text-decoration: none
+}
+
+// Common
+.main-btn{
+    @include main-btn;
+}
+.main-outline-btn{
+    @include main-outline-btn;
+}
+.blue-text{
+    color: $thirdColor !important;
+}
+.main-title {
+    @include main-title;
+    &::after {
+        @include title-shape;
+    }
+}
+
+p{
+    font-family: $second-font;
+}

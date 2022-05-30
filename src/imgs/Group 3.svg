@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.509" height="69.89" viewBox="0 0 69.509 69.89">
+  <defs>
+    <filter id="Path_3" x="0" y="0" width="59.018" height="55.89" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-112.491 -54.224)">
+    <g id="logo" transform="translate(81.274 35.314)">
+      <g id="Group_2" data-name="Group 2" transform="translate(46.096 28.158)">
+        <path id="Path_1" data-name="Path 1" d="M67.223,104.032a2.657,2.657,0,0,1-2.616-3.119l4.617-26.129a2.652,2.652,0,0,1,2.616-2.195h19.63a2.65,2.65,0,0,1,2.621,2.219l4.369,26.129a2.656,2.656,0,0,1-2.621,3.094Z" transform="translate(-63.902 -71.926)" fill="#03a688"/>
+        <g id="Group_1" data-name="Group 1" transform="translate(0)">
+          <path id="Path_2" data-name="Path 2" d="M88.131,69.918A1.993,1.993,0,0,1,90.1,71.583l4.369,26.129a1.994,1.994,0,0,1-1.965,2.322H63.884a1.992,1.992,0,0,1-1.962-2.341l4.617-26.129A1.993,1.993,0,0,1,68.5,69.918h19.63m0-1.328H68.5a3.317,3.317,0,0,0-3.27,2.744L60.614,97.463a3.321,3.321,0,0,0,3.27,3.9H92.5a3.321,3.321,0,0,0,3.275-3.869L91.4,71.364a3.3,3.3,0,0,0-3.274-2.774Z" transform="translate(-60.563 -68.59)" fill="#04d99d"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 31.22, 18.91)" filter="url(#Path_3)">
+        <path id="Path_3-2" data-name="Path 3" d="M51.532,85.17h24.7A2.508,2.508,0,0,1,78.7,87.265l5.5,32.873a2.508,2.508,0,0,1-2.473,2.922h-36a2.508,2.508,0,0,1-2.47-2.943l5.807-32.875A2.509,2.509,0,0,1,51.532,85.17Z" transform="translate(-31.22 -73.17)" fill="#04d99d"/>
+      </g>
+      <path id="Path_4" data-name="Path 4" d="M129.612,33.935c-.015-.179-.022-.36-.022-.543V26c0-3.252,2.3-5.888,5.139-5.888h2.39c2.839,0,5.139,2.636,5.139,5.888v7.394c0,.183-.007.364-.022.543" transform="translate(-72.035)" fill="none" stroke="#03a688" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_5" data-name="Path 5" d="M137.111,163.184v4.1a.7.7,0,0,0,.7.7h3.891a.7.7,0,0,1,.7.7h0a.7.7,0,0,1-.7.7h-3.891a.7.7,0,0,0-.7.7v4.15a.7.7,0,0,1-.7.7h-.093a.7.7,0,0,1-.7-.7V170.1a.7.7,0,0,0-.7-.7h-3.893a.7.7,0,0,1-.7-.7h0a.7.7,0,0,1,.7-.7h3.893a.7.7,0,0,0,.7-.7v-4.1a.7.7,0,0,1,.7-.7h.093A.7.7,0,0,1,137.111,163.184Z" transform="translate(-72.636 -118.736)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+    <text id="auction" transform="translate(123 119.114)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">auction</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,451 @@
+// Navbar
+.navbar {
+	background-color: $secondColor;
+	.navbar-brand {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-right: 1px solid $navColor;
+		padding-right: 1rem;
+		.brand-name {
+			line-height: 1;
+			font-size: $font-size-base;
+			color: $white;
+		}
+	}
+	.lang-dropdown {
+		.dropdown-menu {
+			min-width: auto;
+			padding: 1rem;
+			background-color: $secondColor;
+		}
+	}
+	.navbar-collapse {
+		.navbar-nav {
+			.nav-item {
+				.nav-link {
+					color: $navColor;
+					border-bottom: 2px solid transparent;
+					margin-right: 22px;
+					font-family: $main-font;
+					&.active {
+						color: $mainColor;
+						border-bottom: 2px solid $mainColor;
+					}
+					&.dropdown-toggle {
+						&::after {
+							color: $mainColor;
+						}
+					}
+				}
+                &.dropdown{
+                    .dropdown-menu{
+                        padding: 0;
+                        border: 0;
+                        border-radius: 0.4rem;
+                        li{
+                            a{
+                                color: $secondColor;
+                                padding: 1rem;
+                                border-radius: 0.4rem;
+                                @include transition-2;
+                                &:hover{
+                                    background-color: $mainColor;
+                                    color: $white;
+                                }
+                            }
+                            &:not(:last-child){
+                                border-bottom: 1px solid $lightColor;
+                            }
+                        }
+                    }
+                }
+			}
+		}
+		form {
+			@media #{$mediumAndLess} {
+				flex-direction: column;
+			}
+			.btn {
+				&.main-btn {
+					padding: 15px 22px;
+				}
+			}
+		}
+	}
+	.navbar-toggler {
+		border: 0;
+		.navbar-toggler-icon {
+			position: relative;
+			background-color: $mainColor;
+			border-radius: 5px;
+			display: block;
+			height: 3px;
+			margin-top: 5px;
+			padding: 0;
+			width: 28px;
+			cursor: pointer;
+			background-image: none;
+            @include transition-2;
+		}
+		&:focus {
+			box-shadow: none;
+		}
+		&.active {
+			.navbar-toggler-icon {
+				&:nth-child(1) {
+					transform: rotate3d(0, 0, 1, 45deg);
+					top: 8px;
+					width: 30px;
+				}
+				&:nth-child(2) {
+					opacity: 0;
+				}
+				&:nth-child(3) {
+					transform: rotate3d(0, 0, 1, -45deg);
+					top: -8px;
+					width: 30px;
+				}
+			}
+		}
+	}
+}
+
+// Banner
+.banner {
+	padding: 60px 0;
+	.banner-info {
+		span {
+			font-size: $font-size-base * 3.5;
+			color: $mainColor;
+			font-weight: $font-weight-bold;
+			font-family: $main-font;
+		}
+		h1 {
+			font-size: $font-size-base * 3.5;
+			color: $darkColor;
+			margin: 25px 0;
+			font-family: $main-font;
+		}
+		p {
+			font-size: $font-size-xl;
+			color: $textColor;
+		}
+	}
+	.banner-img {
+		max-width: 100%;
+	}
+}
+
+// Recently Added
+.recently-added {
+	padding: 60px 0;
+	.search-area {
+		margin-bottom: 5rem;
+		h3 {
+			font-family: $main-font;
+		}
+		.input-group {
+			background-color: $searchBg;
+			border-radius: 8px;
+			.form-select {
+				border: 0;
+				margin: 1rem 0;
+				border-right: 1px solid $searchBorder;
+				color: $secondColor;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				background: transparent;
+				background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+				background-repeat: no-repeat;
+				background-position-x: calc(100% - 15px);
+				background-position-y: 5px;
+				font-family: $main-font;
+				&:focus {
+					box-shadow: none;
+				}
+				&:nth-child(3) {
+					border: 0;
+				}
+			}
+			.main-btn {
+				border-left: 2px solid $white;
+				padding: 0 1.8rem;
+			}
+		}
+	}
+	.card {
+		margin-top: 1rem;
+		box-shadow: 3px 3px 6px rgba($dark, 0.29);
+		@include transition-2;
+		.card-img {
+			position: relative;
+			.card-img-overlay {
+				opacity: 0;
+				display: flex;
+				align-items: center;
+				background-color: rgba($black, 0.5);
+				@include transition-2;
+				.icon-wrapper {
+					width: calc(100% / 3);
+					.icon {
+						margin: auto;
+						width: 1rem;
+						height: 1rem;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						border: 2px solid $white;
+						border-radius: 5em;
+						padding: 1.75rem;
+						cursor: pointer;
+						@include transition-2;
+						i {
+							color: $white;
+							font-size: $font-size-xl;
+							@include transition-2;
+						}
+						&:hover {
+							border: 2px solid $mainColor;
+							padding: 2.25rem;
+							i {
+								color: $mainColor;
+							}
+						}
+					}
+				}
+			}
+			&:hover {
+				.card-img-overlay {
+					opacity: 1;
+				}
+			}
+		}
+		.card-body {
+			.card-title {
+				font-size: 1.25em;
+				color: $cardText;
+				font-family: $main-font;
+			}
+			.card-details {
+				margin-bottom: 0.5rem;
+				.list-group {
+					.list-group-item {
+						padding-left: 0;
+						color: $textColor;
+						font-size: calc(#{$font-size-base} + 2px);
+						font-family: $second-font;
+						i {
+							padding-right: 13px;
+							max-width: 25px;
+						}
+					}
+				}
+			}
+		}
+		.card-info {
+			background-color: $lightColor;
+			.list-group {
+				.list-group-item {
+					color: $cardText;
+					background-color: transparent;
+					font-family: $main-font;
+				}
+			}
+		}
+		.list-group {
+			.list-group-item {
+				border: 0;
+				i {
+					color: $mainColor;
+				}
+			}
+		}
+		&:hover {
+			box-shadow: 6px 6px 10px rgba($mainColor, 0.61);
+			transform: translate(10px, 10px);
+		}
+	}
+}
+
+// Categories
+.categories {
+	padding: 70px 0;
+	background-color: $secondColor;
+	.main-title {
+		color: $white;
+	}
+	.categories-text {
+		color: $categoryText;
+		font-size: $font-size-xl;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.owl-carousel {
+		.single-category {
+			text-align: center;
+			.icon-wrapper {
+				width: 180px;
+				height: 180px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: $categoryIconBg;
+				border-radius: 50em;
+				margin: auto;
+				.category-img {
+					max-width: 95px;
+				}
+			}
+			.category-name {
+				color: $white;
+				font-size: $font-size-lg;
+				margin-top: 10px;
+				font-family: $main-font;
+			}
+		}
+		.owl-dots {
+			.owl-dot {
+				span {
+					background: $navColor;
+				}
+				&.active {
+					span {
+						background: $mainColor;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Auctions States
+.auctions-states {
+	padding: 70px 0;
+	.auctions-states-text {
+		color: $textColor;
+		font-size: $font-size-xl;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.single-state {
+		text-align: center;
+		padding: 25px 0;
+		display: inline-block;
+		border: 1px solid $mainColor;
+		@include transition-2;
+		.icon-wrapper {
+			width: 170px;
+			height: 170px;
+			background-color: $stateColor;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50em;
+			margin: 0 54px;
+			.icon {
+				img {
+					max-width: 100%;
+				}
+				&.second-icon {
+					width: 61px;
+					height: 61px;
+					mask: url("../imgs/squere.svg");
+					mask-repeat: no-repeat;
+					mask-position: center;
+				}
+				&.third-icon {
+					width: 108px;
+					height: 95px;
+					mask: url("../imgs/Group 89.svg");
+					mask-repeat: no-repeat;
+					mask-position: center;
+				}
+				&.mask-icon {
+					background-color: $white;
+				}
+			}
+		}
+		p {
+			color: $darkColor;
+			font-size: $font-size-xl;
+			margin-top: 25px;
+			font-weight: $font-weight-semibold;
+			font-family: $main-font;
+		}
+		&:hover {
+			background-color: $mainColor;
+			.icon-wrapper {
+				background-color: $white;
+				.icon {
+					&.mask-icon {
+						background-color: $stateColor;
+					}
+				}
+			}
+			p {
+				color: $white;
+			}
+		}
+	}
+}
+
+// Footer
+.footer {
+	background-color: $secondColor;
+	padding: 70px 0;
+	.footer-widget {
+		.widget-title {
+			margin-bottom: 15px;
+			color: $white;
+			font-size: $font-size-lg;
+			font-weight: $font-weight-normal;
+			font-family: $main-font;
+		}
+		.form-control {
+			background-color: $categoryIconBg;
+			border-color: $footerInputBorder;
+			font-family: $main-font;
+			color: $white;
+			&::placeholder {
+				color: $placeholderText;
+				font-size: calc(#{$font-size-base} - 2px);
+			}
+		}
+		.widget-menu {
+			li {
+				&:not(:last-child) {
+					margin-bottom: 15px;
+				}
+				a {
+					color: $navColor;
+					font-size: $font-size-base;
+					font-family: $main-font;
+					@include transition-2;
+					&:hover {
+						color: $mainColor;
+					}
+				}
+			}
+		}
+		.social-links {
+			margin-top: 30px;
+			h5 {
+				color: $white;
+			}
+			ul {
+				li {
+					cursor: pointer;
+					&:not(:first-child) {
+						margin-left: 15px;
+					}
+					i {
+						color: $white;
+						font-size: $font-size-xl;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+<svg id="real_estate" data-name="real estate" xmlns="http://www.w3.org/2000/svg" width="116.071" height="115.929" viewBox="0 0 116.071 115.929">
+  <g id="Page-1">
+    <g id="_076---Real-Estate-Investing" data-name="076---Real-Estate-Investing">
+      <path id="Path" d="M42.025,12l4,60.037H6a4.014,4.014,0,0,1-4-4V12Z" transform="translate(2.002 12.015)" fill="#7d6599" fill-rule="evenodd"/>
+      <path id="Path-2" data-name="Path" d="M30,82.049H22V2H70.029V51.03Z" transform="translate(22.027 2.002)" fill="#3b97d3" fill-rule="evenodd"/>
+      <rect id="Rectangle" width="56.034" height="8.005" rx="1" transform="translate(40.025)" fill="#2980ba"/>
+      <path id="Path-3" data-name="Path" d="M44.027,10v8H2a2,2,0,0,1-2-2V12a2,2,0,0,1,2-2Z" transform="translate(0 10.012)" fill="#5d4c72" fill-rule="evenodd"/>
+      <path id="Path-4" data-name="Path" d="M10,34H22.009a2,2,0,0,1,2,2V50.01H8V36A2,2,0,0,1,10,34Z" transform="translate(8.01 34.042)" fill="#5d4c72" fill-rule="evenodd"/>
+      <g id="Group_71" data-name="Group 71" transform="translate(12.007 18.011)">
+        <rect id="Rectangle-2" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(0 34.021)" fill="#67b9cc"/>
+        <rect id="Rectangle-3" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(16.01 34.021)" fill="#67b9cc"/>
+        <rect id="Rectangle-4" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(0 18.011)" fill="#67b9cc"/>
+        <rect id="Rectangle-5" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(16.01 18.011)" fill="#67b9cc"/>
+        <rect id="Rectangle-6" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(42.026 16.01)" fill="#67b9cc"/>
+        <rect id="Rectangle-7" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(62.038 16.01)" fill="#67b9cc"/>
+        <rect id="Rectangle-8" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(42.026)" fill="#67b9cc"/>
+        <rect id="Rectangle-9" data-name="Rectangle" width="8.005" height="8.005" rx="1" transform="translate(62.038)" fill="#67b9cc"/>
+      </g>
+      <path id="Path-5" data-name="Path" d="M89.967,58.021A31.948,31.948,0,1,1,65.952,27,31.947,31.947,0,0,1,89.967,58.021Z" transform="translate(26.104 26.031)" fill="#f0c419" fill-rule="evenodd"/>
+      <circle id="Oval" cx="24.015" cy="24.015" r="24.015" transform="translate(60.037 60.037)" fill="#f3d55b"/>
+      <path id="Path-6" data-name="Path" d="M46,49.01a4,4,0,1,1,4-4,2,2,0,0,0,4,0,8,8,0,0,0-6-7.721V35a2,2,0,1,0-4,0v2.285a7.989,7.989,0,0,0,2,15.726,4,4,0,1,1-4,4,2,2,0,1,0-4,0,8,8,0,0,0,6,7.721v2.285a2,2,0,0,0,4,0V64.735A7.989,7.989,0,0,0,46,49.01Z" transform="translate(38.047 33.04)" fill="#b19046" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
